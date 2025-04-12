@@ -72,10 +72,36 @@ body {
  * Header
  */
 
-.about-links {
+.about-info .about-links svg {
+    color: #ffffff;
+}
+
+.about-info .about-links svg:hover {
+    color: #dc3545;
+}
+
+
+.about-info .about-links {
+    color: #ffc107;
     text-decoration: none;
 }
 
+.about-info .about-links:link {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.about-info .about-links:visited {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.about-info .about-links:hover, .about-info .about-links:focus {
+    color: #dc3545;
+    border-bottom-color: #dc3545;
+}
+
+abou
 .nav-masthead .nav-link {
     color: rgba(255, 255, 255, .5);
     border-bottom: .25rem solid;
