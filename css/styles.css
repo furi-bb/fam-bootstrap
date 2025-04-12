@@ -39,35 +39,6 @@ body {
     max-width: 60em;
 }
 
-.shaded-nav {
-    background-color: rgba(255, 193, 7);
-    max-width: 30em;
-    margin: 0 auto;
-
-}
-
-.nav-shaded {
-    color: rgba(0, 0, 0, 0.5);
-    border-bottom: .25rem solid;
-    text-decoration: none;
-}
-
-.nav-masthead .nav-shaded:hover,
-.nav-masthead .nav-shaded:focus {
-    color: #dc3545;
-    border-bottom-color: #dc3545;
-    /*border-bottom-color: rgba(255, 255, 255, .25);*/
-}
-
-.nav-shaded.active {
-    color: #dc3545;
-    border-bottom-color: #dc3545;
-}
-
-.nav-masthead .nav-shaded + .nav-shaded {
-    margin-left: 1rem;
-}
-
 /*
  * Header
  */
